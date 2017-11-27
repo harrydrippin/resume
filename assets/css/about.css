@@ -1,0 +1,251 @@
+/*@import url(http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+*/
+html, body {
+  width: 100%;
+  margin: 0;
+  /*background-color: #ffcc66;*/
+  background-color: #FFFFFF;
+  font-weight: 200;
+  font-family: "Spoqa Han Sans", sans-serif;
+}
+
+a {
+  color: #770000;
+  font-weight: 500;
+  text-decoration: none;
+  padding-right: 7px;
+  transition: 0.3s;
+}
+
+a:active, a:hover {
+  padding-left: 7px;
+  transition: 0.3s;
+}
+
+li {
+  display: block;
+  list-style-type: none;
+}
+
+.content-wrapper {
+  width: 960px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #FFFFFF;
+}
+
+header {
+  margin-top: 60px;
+}
+
+.header-deco {
+  width: 80px;
+  height: 10px;
+  margin-bottom: 30px;
+  background-color: #990000;
+}
+
+.header-name-container {
+  position: relative;
+}
+
+.header-name {
+  display: block;
+  font-size: 60px;
+  font-weight: 200;
+}
+
+.header-nickname {
+  color: grey;
+}
+
+.header-meta {
+  color: #990000;
+  font-size: 40px;
+}
+
+.header-job {
+  color: #909090;
+  margin-top: 20px;
+  font-weight: 200;
+}
+
+.header-deco {
+  width: 80px;
+  height: 10px;
+  margin-bottom: 15px;
+  background-color: #990000;
+}
+
+.header-meta-container {
+  margin-top: 30px;
+}
+
+.header-meta-name {
+  font-weight: 200;
+  color: #990000;
+  font-size: 25px;
+}
+
+.header-meta-content {
+  margin-left: 5px;
+  color: #000000;
+  font-size: 25px;
+}
+
+.article-container {
+  margin-top: 60px;
+}
+
+.article-heading {
+  font-size: 40px;
+  color: #990000;
+  /* border-bottom: 1px solid #990000; */
+}
+
+.article-content {
+  font-size: 25px;
+  padding-left: 30px;
+  border-left: 1px solid #990000;
+  line-height: 37px;
+}
+
+.career-container {
+  margin-top: 30px;
+  border-left: 1px solid #990000;
+  padding-left: 30px;
+}
+
+.career-name {
+  font-size: 30px;
+  color: #990000;
+}
+
+.career-job {
+  color: grey;
+  font-size: 20px;
+}
+
+.career-meta {
+  color: grey;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.career-period {
+  margin-left: 5px;
+}
+
+.career-explain {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.career-tech {
+  font-size: 20px;
+}
+
+.career-tech-name {
+  color: #990000;
+  font-weight: 300;
+}
+
+.edu-status {
+  color: #990000;
+}
+
+.project-list-container {
+  margin-top: 30px;
+}
+
+.project-category {
+  display: block;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #990000;
+}
+
+.project-container {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-left: 1px solid #990000;
+  padding-left: 30px;
+}
+
+.project-name {
+  color: #990000;
+  font-size: 25px;
+}
+
+.project-explain {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.project-tech {
+  font-size: 20px;
+}
+
+.project-tech-name {
+  color: #990000;
+  font-weight: 300;
+}
+
+.presentation-date {
+  color: grey;
+  font-size: 20px;
+  margin-top: 10px;
+  display: block;
+}
+
+.publication-date {
+  color: grey;
+  font-size: 20px;
+  margin-top: 10px;
+  line-height: 30px;
+}
+
+.skillset-category {
+  display: block;
+  font-size: 30px;
+  color: #990000;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.skillset {
+  display: block;
+}
+
+.skill {
+  height: 50px;
+}
+
+.skill-name {
+  width: 30%;
+  font-size: 25px;
+  line-height: 25px;
+  color: black;
+  float: left;
+}
+
+.skill-bar-container {
+  width: 70%;
+  height: 25px;
+  background-color: grey;
+  float: right;
+}
+
+.skill-bar {
+  height: 25px;
+  background-color: #990000;
+}
+
+footer {
+  color: #990000;
+  border-top: 1px solid grey;
+  padding-top: 30px;
+  font-weight: 500;
+}
