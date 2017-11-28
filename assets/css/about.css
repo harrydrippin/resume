@@ -231,6 +231,10 @@ header {
   float: left;
 }
 
+.skill-head {
+  color: #990000;
+}
+
 .skill-bar-container {
   width: 70%;
   height: 25px;
