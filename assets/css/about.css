@@ -103,6 +103,13 @@ header {
   /* border-bottom: 1px solid #990000; */
 }
 
+.about-me-content {
+  font-size: 20px;
+  line-height: 30px;
+  border-left: 1px solid #990000;
+  padding-left: 30px;
+}
+
 .article-content {
   font-size: 25px;
   padding-left: 30px;
@@ -190,7 +197,22 @@ header {
 
 .project-tech-name {
   color: #990000;
-  font-weight: 300;
+  font-weight: 500;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.project-tech-explain {
+  display: block;
+  font-size: 20px;
+  line-height: 30px;
+  /*padding-left: 20px;
+  border-left: 1px solid #990000;*/
+}
+
+.strong-red {
+  color: #990000;
 }
 
 .presentation-date {

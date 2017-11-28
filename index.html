@@ -40,7 +40,7 @@
             <article>
                 <!-- Career -->
                 <div class="article-container">
-                    <span class="article-heading">경력</span>
+                    <span class="article-heading">Career</span>
                     <div class="career-container">
                         <span class="career-name">Jininsa Company</span><br>
                         <div class="career-meta">
@@ -49,7 +49,7 @@
                         </div>
                         <p class="career-explain">뽀로로의 모습을 한 소셜 인공지능 로봇 "뽀로롯"의 Chatbot Backend 개발과 일부 Android 어플리케이션 개발을 담당하고 있습니다.</p>
                         <div class="career-tech">
-                            <span class="career-tech-name">Chatbot / </span> Python (Web Crawling, Chatbot Decision Making Framework), REST API Server (Flask)<br>
+                            <span class="career-tech-name">Chatbot / </span> Python (Web Crawling, Chatbot Decision Making Framework), REST API Server (Flask), Cache Server (Redis)<br>
                             <span class="career-tech-name">Web / </span> Bootstrap v3, jQuery, HTML5, CSS3, Javascript<br>
                             <span class="career-tech-name">Android / </span> RxJava, XML
                         </div>
@@ -70,117 +70,126 @@
 
                 <!-- Education -->
                 <div class="article-container">
-                    <span class="article-heading">학력</span>
+                    <span class="article-heading">Education</span>
                     <p class="article-content">
                         국민대학교 소프트웨어융합대학 소프트웨어학부 2학년 <b class="edu-status">재학</b><span style="color: grey;"> (2016. 3. ~ Now)</span><br>
                         서울대진고등학교 <b class="edu-status">졸업</b> <span style="color: grey;"> (2016. 2.)
                     </p>
                 </div>
 
-                <!-- Projects -->
+                <!-- Experiences -->
                 <div class="article-container">
-                    <span class="article-heading">프로젝트</span>
+                    <span class="article-heading">Experiences</span>
                     <div class="project-list-container">
                         <span class="project-category">Jininsa Company</span>
                         <div class="project-container">
                             <span class="project-name">PororoT Chatbot</span>
                             <p class="project-explain">Mindmap.AI에서 Intent/Entity Parser 이외의 기능을 자체적인 Python 서버로 전환하는 프로젝트를 수행하고 있습니다. </p>
                             <div class="project-tech">
-                                <span class="project-tech-name">Chatbot / </span> Python (Web Crawling, Chatbot Decision Making Framework), REST API Server (Flask)<br>
+                                <span class="project-tech-name">Rule-based 대화 선택</span>
+                                <span class="project-tech-explain"><span class="strong-red">SQL</span>과 <span class="strong-red">Redis</span>를 통해서 Intent와 Entity에 기반하여 주어진 상황에 적절한 대사를 찾아내는 알고리즘을 작성하였습니다.</span>
+                                <span class="project-tech-name">Context와 Command 구현</span>
+                                <span class="project-tech-explain"><span class="strong-red">Redis</span>를 이용하여 유저 별로 독자적인 Context를 만들고, <span class="strong-red">Flask</span>를 통해 접근, 수정하며 일정 시간 이용하지 않으면 소멸하는 형태의 모델을 구현하였습니다.</span>
                             </div>
                         </div>
                         <div class="project-container">
                             <span class="project-name">PororoT API Server</span>
                             <p class="project-explain">챗봇 서버와의 통신, 사용자 정보 관리 및 REST API를 제공하는 서버를 개발했으며, 전체 Infrastructure를 설계하고 작업 공정을 정의하였습니다.</p>
                             <div class="project-tech">
-                                <span class="project-tech-name">Server / </span> Play! Framework (Scala), Flask (Python)<br>
-                                <span class="project-tech-name">DevOps / </span> Docker, Deploy & Management Script (Shell Script, Python), Git
+                                <span class="project-tech-name">SQL-based Session Interface</span>
+                                <span class="project-tech-explain"><span class="strong-red">Flask</span>의 Session Interface를 Override하여 <span class="strong-red">SQL</span>을 Flask의 Session Storage로 사용할 수 있도록 구현하였습니다.</span>
+                                <span class="project-tech-name">전체 구성 요소 Dockerize</span>
+                                <span class="project-tech-explain"><span class="strong-red">Docker</span>를 통해서 Nginx, Play!, MySQL 등 인프라 상의 모든 구성 요소를 컨테이너 기반으로 바꾸고 <span class="strong-red">Shell Script</span>를 통해 이들을 제어하고 업데이트하는 형태의 운영 방식을 구성했습니다.</span>
                             </div>
                         </div>
                         <div class="project-container">
                             <span class="project-name"><a target="_blank" href="https://pororot.com">PororoT, Jininsa Company Website</a></span>
                             <p class="project-explain">제품의 Landing Page와 회사 웹사이트를 개발하였습니다.</p>
                             <div class="project-tech">
-                                <span class="project-tech-name">Web / </span> Bootstrap v3, jQuery, HTML5, CSS3, Javascript<br>
-                            </div>
+                                <span class="project-tech-name">동적인 웹 페이지 구성</span>
+                                <span class="project-tech-explain"><span class="strong-red">jQuery</span>를 활용하여 수시로 업데이트되는 News, People과 같은 부분이 JSON을 바탕으로 자동화되어 생성되도록 구현했습니다.</span>
+                                </div>
                         </div>
                         <span class="project-category">2016년도 창의도전형 R&D 지원 사업</span>
                         <div class="project-container">
                             <span class="project-name"><a target="_blank" href="https://github.com/ngEPL/Mocca">Mocca</a></span>
                             <p class="project-explain">본 사업의 목적 달성을 위해 설계한 프로그래밍 언어입니다. 블록 기반 프로그래밍 언어에 특화되어 있으며, XML의 구조 안에 C 스타일의 문법을 기술하는 형식으로 이루어져 있습니다. C# 기반의 컴파일러가 존재하며, Python으로 컴파일할 수 있습니다. 프로젝트는 Github에 MIT 라이센스로 공개하였습니다.</p>
                             <div class="project-tech">
-                                <span class="project-tech-name">Compiler / </span> Block-based Middle Language Compiler (C# Mono, .NET)<br>
+                                <span class="project-tech-name">C# Compiler-Compiler</span>
+                                <span class="project-tech-explain"><span class="strong-red">TinyPG</span>를 활용하여 설정한 문법을 바탕으로 Automata (Finite State Machine) 기반 토큰 분석 C# 코드를 생성시켰고, 이를 직접 만든 Compiler와 연결시켜서 Mocca 파일을 Parse Tree로 바꿀 수 있게 구현하였습니다.</span>
+                                <span class="project-tech-name">Python Code Generator</span>
+                                <span class="project-tech-explain">C# 언어 엔진 내부에서 만들어진 Parse Tree에 기반하여 해당 Token Set에 맞는 Python 코드를 생성시키는 모듈을 구현했습니다.</span>
                             </div>
                         </div>
-                        <span class="project-category">외주 프로젝트</span>
+                        <span class="project-category">Outsourced</span>
                         <div class="project-container">
                             <span class="project-name"><a target="_blank" href="http://softwarecontest.kookmin.ac.kr">제 2회 국민대학교 알고리즘 대회 웹 사이트</a></span>
                             <p class="project-explain">국민대학교에서 주최하는 제 2회 국민대학교 알고리즘 대회의 랜딩 페이지를 개발했습니다.</p>
                             <div class="project-tech">
-                                <span class="project-tech-name">Web / </span> Bootstrap v3, jQuery, HTML5, CSS3, Javascript
+                                <span class="project-tech-name">Web Frontend </span> Bootstrap v3, jQuery, HTML5, CSS3, Javascript
                             </div>
                         </div>
                         <div class="project-container">
                             <span class="project-name"><a target="_blank" href="http://buwontech.co.kr">부원테크 웹 카탈로그</a></span>
                             <p class="project-explain">반도체 유통 회사인 부원테크의 웹 카탈로그 제작을 수행했습니다.</p>
                             <div class="project-tech">
-                                <span class="project-tech-name">Chatbot / </span> Python (Web Crawling)<br>
-                                <span class="project-tech-name">Web / </span> Bootstrap v4, jQuery, HTML5, CSS3, Javascript
+                                <span class="project-tech-name">Web Frontend</span> Bootstrap v4, jQuery, HTML5, CSS3, Javascript
                             </div>
                         </div>
-                        <span class="project-category">오픈소스 프로젝트</span>
+                        <span class="project-category">Open Source Projects</span>
                         <div class="project-container">
                             <span class="project-name"><a target="_blank" href="http://github.com/harrydrippin/musictube">MusicTube</a></span>
                             <p class="project-explain">YouTube의 동영상들을 방해 요소 없이 빠르게 모아서 List로 만들고 반복 재생해주는 서비스입니다. Vue.js 기반 연습 프로젝트로써 개발하였습니다.</p>
                             <div class="project-tech">
-                                <span class="project-tech-name">Web / </span> Vue.js (webpack, vuex), npm, HTML5, CSS3, Javascript
+                                <span class="project-tech-name">Web Frontend</span>
+                                <span class="project-tech-explain">Vue.js (vuex, npm), HTML/CSS, Javascript</span>
                             </div>
                         </div>
                         <div class="project-container">
                             <span class="project-name"><a target="_blank" href="http://github.com/KookminBlackHole/killit-game-server">Killit</a></span>
-                            <p class="project-explain">2D 기반 맵에서 실시간으로 1vs1 전투를 벌이는 게임입니다. 대학교 2학년 커리큘럼의 오픈소스소프트웨어 수업 프로젝트로써 개발하였으며, 저는 게임 서버를 담당하였습니다.</p>
+                            <p class="project-explain">2D 기반 맵에서 실시간으로 1vs1 전투를 벌이는 게임입니다. 대학교 2학년 커리큘럼의 오픈소스소프트웨어 수업 프로젝트로써 개발하였으며, 저는 게임 서버를 담당하였습니다. 실시간 위치 공유, Dead Reckoning 등의 게임 서버 기술들을 배우고 구현하였습니다.</p>
                             <div class="project-tech">
-                                <span class="project-tech-name">Game Server / </span> Node.js (Express, socket.io, npm)<br>
-                                <span class="project-tech-name">Game Client / </span> cocos2d-x
+                                <span class="project-tech-name">Game Server</span> Node.js (Express, socket.io, npm)<br>
+                                <span class="project-tech-name">Game Client</span> cocos2d-x
                             </div>
                         </div>
                         <div class="project-container">
                             <span class="project-name"><a target="_blank" href="http://github.com/harrydrippin/hackathoners">Hackathoners</a></span>
                             <p class="project-explain">해커톤의 진행 관리 및 평가를 도와주는 서비스로써, 해커톤 진행기간 동안 일정과 공지 사항을 스크린에 표시하며 지속적으로 GitHub의 프로젝트를 분석하여 별도의 기준으로 점수를 수치화시키는 기능을 갖고 있습니다. 해커톤에 참여하여 Prototype을 개발하였으며, 지속적으로 개발하여 2017 소프트웨어 중심대학 오픈소스 해커톤과 2017 Global Hackathon in Jeju에서 실제로 사용하였습니다.</p>
                             <div class="project-tech">
-                                <span class="project-tech-name">Web / </span> HTML5, CSS3, Javascript<br>
-                                <span class="project-tech-name">Server / </span> Python (Flask, Web Crawler), Node.js (Express, npm)<br>
-                                <span class="project-tech-name">Infrastructure / </span> Docker, Deploy & Management Script (Shell Script, Python), Amazon Web Service
+                                <span class="project-tech-name">Web Frontend</span> HTML5, CSS3, Javascript<br>
+                                <span class="project-tech-name">Server Backend</span> Python (Flask, Web Crawler), Node.js (Express, npm)<br>
+                                <span class="project-tech-name">Infrastructure</span> Docker, Deploy & Management Script (Shell Script, Python), Amazon Web Service
                             </div>
                         </div>
                         <div class="project-container">
                             <span class="project-name"><a target="_blank" href="http://github.com/somul-project/somul-project.github.io">somul-project.github.io</a></span>
                             <p class="project-explain">전국의 도서관에서 소프트웨어 강의를 진행하는 비영리 교육 봉사인 "소프트웨어에 물들다"에 시스템 봉사자로 참여하여 참여 도서관 조회 시스템, 도서관 별 강연 정보 열람 시스템, 행사 소개 페이지를 개발하였습니다.</p>
                             <div class="project-tech">
-                                <span class="project-tech-name">Web / </span> Bootstrap v3, jQuery, HTML5, CSS3, Javascript<br>
-                                <span class="project-tech-name">API / </span> Google Docs Spreadsheet API (강연자 신청 스프레드시트에 시스템을 연결하여 작업)
+                                <span class="project-tech-name">Web Frontend</span> Bootstrap v3, jQuery, HTML5, CSS3, Javascript<br>
+                                <span class="project-tech-name">External API</span> Google Docs Spreadsheet API (강연자 신청 스프레드시트에 시스템을 연결하여 작업)
                             </div>
                         </div>
                         <div class="project-container">
                             <span class="project-name"><a target="_blank" href="http://github.com/harrydrippin/airyday">Airyday</a></span>
                             <p class="project-explain">비행기 촬영을 취미로 가지는 사람들을 위하여, ActiveX 기반 UBI-KAIS의 데이터를 가져와 모바일에서 볼 수 있도록 하는 비행기 이착륙 정보 조회 시스템입니다. 현재는 UBI-KAIS가 현대화되어 모바일에서 접속이 가능해져 서비스를 종료하였습니다. React.js 연습 프로젝트로써 개발하였습니다.</p>
                             <div class="project-tech">
-                                <span class="project-tech-name">Web / </span> React.js (webpack, babel), npm, HTML5, CSS3, Javascript
+                                <span class="project-tech-name">Web Frontend</span> React.js (webpack, babel), npm, HTML5, CSS3, Javascript
                             </div>
                         </div>
                         <div class="project-container">
                             <span class="project-name"><a target="_blank" href="http://github.com/harrydrippin/flaskify">Flaskify</a></span>
                             <p class="project-explain">Flask 기반 Backend API를 만들고자 할 때 빠르게 구조를 정리하여 기초적인 Skeleton Code를 만들고 그 내용을 .md 포맷으로 출력해 팀원 공유하거나 Github 위에서 관리할 수 있게 해주는 Python 기반의 도구입니다. 해커톤에서 API 개발 중 더욱 빠르게 만들 수 있는 방법을 강구하다가 즉석에서 개발하게 되었습니다.</p>
                             <div class="project-tech">
-                                <span class="project-tech-name">All / </span> Python (Flask), Markdown, JSON
+                                <span class="project-tech-name">Tool</span> Python (Flask), Markdown, JSON
                             </div>
                         </div>
                         <div class="project-container">
                             <span class="project-name"><a target="_blank" href="http://github.com/harrydrippin/AraLanguage">AraLanguage</a></span>
                             <p class="project-explain">Ara(아라)는 한글로 직관적이고, 쉽게 프로그래밍할 수 있는 프로그래밍 언어입니다. 고등학교 재학 중 소프트웨어 교육을 쉽게 할 수 있는 방법을 생각하다가 고안된 아이디어입니다. 2015학년도 한국정보올림피아드 공모 부문에서 전국 동상을 수상하였습니다.</p>
                             <div class="project-tech">
-                                <span class="project-tech-name">Compiler / </span> Python<br>
-                                <span class="project-tech-name">Runtime / </span> Python, Run Script (Batch file, Shell Script), GameMaker (User Friendly GUI)
+                                <span class="project-tech-name">Compiler</span> Python<br>
+                                <span class="project-tech-name">Runtime</span> Python, Run Script (Batch file, Shell Script), GameMaker (User Friendly GUI)
                             </div>
                         </div>
                     </div>
@@ -188,7 +197,7 @@
 
                 <!-- Presentation -->
                 <div class="article-container">
-                    <span class="article-heading">발표</span>
+                    <span class="article-heading">Presentation</span>
                     <div class="project-container">
                         <span class="project-name"><a target="_blank" href="assets/rp_harry.pdf">쉽고 재미있게 이해하는 Reactive Programming</a></span><br>
                         <span class="presentation-date">2017. 8. 19.</span>
@@ -198,7 +207,7 @@
 
                 <!-- Publication -->
                 <div class="article-container">
-                    <span class="article-heading">논문</span>
+                    <span class="article-heading">Publication</span>
                     <div class="project-container">
                         <span class="project-name">오픈소스 소프트웨어 개발 방법론 학습을 위한 OPEG 지수 개발 연구</span><br>
                         <p class="publication-date">홍승환 (대표 저자) · 김동규 · 손건 · 김도민 · 신수철(국민대), 정두진(한양대), 최린아(숙명여자대), 이민석(국민대)
@@ -209,7 +218,7 @@
 
                 <!-- Presentation -->
                 <div class="article-container">
-                    <span class="article-heading">수상</span>
+                    <span class="article-heading">Awards</span>
                     <div class="project-container">
                         <span class="project-name">2016년도 창의도전형 R&D 지원 사업 - 미래창조과학부장관상 (1위)</span><br>
                         <span class="presentation-date">2016. 12. 31.</span>
@@ -224,10 +233,10 @@
 
                 <!-- Skillset -->
                 <div class="article-container">
-                    <span class="article-heading">기술 스택</span><br>
+                    <span class="article-heading">Skillset</span><br>
                     <p class="article-content">
                         <span class="skill-head">Web Frontend</span><br> Bootstrap v3/v4, jQuery, Vue.js, React.js<br><br>
-                        <span class="skill-head">Server</span><br> Flask (Python 3), Express.js, Docker, AWS, PHP<br><br>
+                        <span class="skill-head">Server</span><br> Flask (Python 3), Express.js, Redis, Docker, AWS, PHP<br><br>
                         <span class="skill-head">Mobile Application</span><br> Android, RxJava<br><br>
                         <span class="skill-head">Languages</span><br> Python, Javascript, HTML/CSS, Java, C++11/14, C#, Shell Script, Scala<br><br>
                         <span class="skill-head">Methods & Tools</span><br> Agile: Scrum, Atlassian Stack (Jira, Confluence, Bitbucket), Slack, Sketch, Zeplin
