@@ -93,21 +93,25 @@ header {
   font-size: 25px;
 }
 
+.header-profile {
+  margin-top: 30px;
+  font-size: 25px;
+  color: grey;
+  line-height: 40px;
+}
+
 .article-container {
   margin-top: 60px;
+}
+
+.article-container:first-child {
+  margin-top: 30px;
 }
 
 .article-heading {
   font-size: 40px;
   color: #990000;
   /* border-bottom: 1px solid #990000; */
-}
-
-.about-me-content {
-  font-size: 20px;
-  line-height: 30px;
-  border-left: 1px solid #990000;
-  padding-left: 30px;
 }
 
 .article-content {
@@ -118,9 +122,13 @@ header {
 }
 
 .career-container {
-  margin-top: 30px;
+  margin-top: 60px;
   border-left: 1px solid #990000;
   padding-left: 30px;
+}
+
+.career-container:first-child {
+  margin-top: 30px;
 }
 
 .career-name {
@@ -171,6 +179,19 @@ header {
   margin-top: 50px;
   margin-bottom: 30px;
   color: #990000;
+}
+
+.career-divider {
+  margin-top: 30px;
+  width: 100%;
+  height: 1px;
+  background-color: grey;
+}
+
+.career-project-container {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .project-container {
